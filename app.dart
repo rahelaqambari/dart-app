@@ -17,6 +17,9 @@ void main() {
     }
 
     list<num> prices = [200,600, 300 ,700, 400, 800,500,980, 1800, 6000];
+
+    List<num> currentPrice = prices.map((p)=>p-(p*5)/100).toList();
+    print(currenPrice);
      myMoney = 290;
     bool result = prices.any((price)=>price<=myMoney);
     bool result = prices.every((price)=>price<=600);
