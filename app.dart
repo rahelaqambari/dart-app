@@ -1,5 +1,7 @@
 void main() {
     List<string> listStudents = ["Mahboba", "Atifa" , "Fazila" ,"Rahela" ,"Alima"];
+    List<String> limitedList = listStudents.skip(2).toList();
+    print("The 3 student is selected $limitedList");
     // removeWhere
     // listStudent.removeWhere((item)=>item.toLowerCase().contains ("f"));
     // print(listStudents); 
@@ -25,5 +27,6 @@ void main() {
     bool result = prices.every((price)=>price<=600);
 
     // Expand
-    List <num> normalNumber = [[2,3],[5,6],[9,8],[12,8]];
-    normalNumbers.expand().tolist();
+    List <dynamic> normalNumber = [[2,3],[5,6],[9,8],[12,8]];
+    normalNumbers.expand((e)=>e).tolist();
+}
