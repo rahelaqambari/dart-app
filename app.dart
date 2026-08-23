@@ -3,6 +3,15 @@ void main() {
     List<num> sortedNumbers = numbers.sort();
     print(sortedNumbers);
     List<num> sortList = numbers.sort((s,c)=>s.comperTo(c));
+    numbers.fillRange(2,6,16);
+    numbers.setRange(1,4,[4,6,7,8,]);
+    print(12.4.parse int);
+    print(90.parse double);
+    print(12 as num);
+    Set<string> studentInfo = {
+        "Ali","Ahmad","Mahmod","reza","Sana","Sama","Sara","Sada"
+    };
+    print(studnetInfo.toLowerCase.contains("e"));
 
     // List<string> listStudents = ["Mahboba", "Atifa" , "Fazila" ,"Rahela" ,"Alima"];
     // List<String> limitedList = listStudents.skip(2).toList();
