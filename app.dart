@@ -55,11 +55,11 @@ void main() {
         "Hamid": 65
     };
     // print(scores["Sana"]);
-    scores ["Neda"] = 50;
-    scores ["Sama": 64,"Ali" :48, "Reza" :72];
-    scores.putifAbsent("Masom",()=>89);
-    scores.update(45,(key)=>key "Rahim");
-    scores.update("Masom",(value)=>value 90);
+    // scores ["Neda"] = 50;
+    // scores ["Sama": 64,"Ali" :48, "Reza" :72];
+    // scores.putifAbsent("Masom",()=>89);
+    // scores.update(45,(key)=>key "Rahim");
+    // scores.update("Masom",(value)=>value 90);
     scores.removeWhere((key,value)=>key.contains("e"));
 
 
