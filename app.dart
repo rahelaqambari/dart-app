@@ -18,11 +18,18 @@ class Students {
     // };
 }
 void main() {
-    List<Students> listStudent = [
-        Student(
-            "Ali","M.Eshaq","Qambari",24,100
-        ),
-    ]
+    Student st1 = Student("Ali","M.Eshaq","Qambari",24,100);
+    st1.name = "Reza";
+    st1.score = 90;
+    print(st1.score)
+
+
+
+    // List<Students> listStudent = [
+    //     Student(
+    //         "Ali","M.Eshaq","Qambari",24,100
+    //     ),
+    // ]
 
 
 
