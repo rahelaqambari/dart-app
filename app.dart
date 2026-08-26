@@ -3,13 +3,51 @@ class Students {
     string fathername;
     string lastname;
     int age;
-    num score;
-    Students(this.name,this.fathername,this.lastname,this.age,this.score);
+    num _score;
+    Students(this.name,this.fathername,this.lastname,this.age,this._score);
+    set score(value){
+        if(value>30 && value<100){
+        this._score = value;
+        }
+    }
+    num get score(){
+        return this._score;
+    }
+    // var read() {
+    //     print("$name $lastname can read the lessons")
+    // };
 }
 void main() {
-    var stName = new Students("Ali","M.Eshaq","Qambari",24,100);
-    print(stName);
+    List<Students> listStudent = [
+        Student(
+            "Ali","M.Eshaq","Qambari",24,100
+        ),
+    ]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// class Students {
+//     string name;
+//     string fathername;
+//     string lastname;
+//     int age;
+//     num score;
+//     Students(this.name,this.fathername,this.lastname,this.age,this.score);
+// }
+// void main() {
+//     var stName = new Students("Ali","M.Eshaq","Qambari",24,100);
+//     print(stName);}
     // List<num> numbers = [2,5,4,7,8,9,7,3,1];
     // List<num> sortedNumbers = numbers.sort();
     // print(sortedNumbers);
