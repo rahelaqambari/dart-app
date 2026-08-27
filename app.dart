@@ -17,7 +17,21 @@ class Students {
     //     print("$name $lastname can read the lessons")
     // };
 }
+
+class  Product{
+    string name;
+    string brand;
+    string category;
+    int countity;
+    num price;
+    Students(this.name,this.brand,this.category,this.countity,this.price);
+}
 void main() {
+    var PrName = new Students("Iphone 17","Apple","Electric Devices",24,$2000);
+     print(ProName);
+
+
+
     Student st1 = Student("Ali","M.Eshaq","Qambari",24,100);
     st1.name = "Reza";
     st1.score = 90;
@@ -30,15 +44,6 @@ void main() {
     //         "Ali","M.Eshaq","Qambari",24,100
     //     ),
     // ]
-
-
-
-
-
-
-
-
-
 
 
 
