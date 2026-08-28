@@ -1,10 +1,10 @@
-class Students {
+class Student {
     string name;
     string fathername;
     string lastname;
     int age;
     num _score;
-    Students(this.name,this.fathername,this.lastname,this.age,this._score);
+    Student(this.name,this.fathername,this.lastname,this.age,this._score);
     set score(value){
         if(value>30 && value<100){
         this._score = value;
@@ -13,29 +13,46 @@ class Students {
     num get score(){
         return this._score;
     }
+    class Cars {
+        String name;
+        String color;
+        num _price;
+        int version;
+        Cars(this.name,this.color,this._price,this.version);
+        set price(value){
+            if (value> 400000){
+                this._price
+            }
+        }
+        num get price(){
+            return this_.price
+        }
+    }
     // var read() {
     //     print("$name $lastname can read the lessons")
     // };
 }
 
-class  Product{
-    string name;
-    string brand;
-    string category;
-    int countity;
-    num price;
-    Students(this.name,this.brand,this.category,this.countity,this.price);
-}
+// class  Product{
+//     string name;
+//     string brand;
+//     string category;
+//     int countity;
+//     num price;
+//     Students(this.name,this.brand,this.category,this.countity,this.price);
+// }
 void main() {
-    var PrName = new Students("Iphone 17","Apple","Electric Devices",24,$2000);
-     print(ProName);
+    // var PrName = new Students("Iphone 17","Apple","Electric Devices",24,$2000);
+    //  print(ProName);
 
-
+    Cars car1 = Cars("folder","white",500000,2025);
+    car1.price = -100000
+    print(car1.price);
 
     Student st1 = Student("Ali","M.Eshaq","Qambari",24,100);
     st1.name = "Reza";
     st1.score = 90;
-    print(st1.score)
+    print(st1.score);
 
 
 
