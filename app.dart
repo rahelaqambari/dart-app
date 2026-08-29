@@ -54,6 +54,10 @@ void main() {
     st1.score = 90;
     print(st1.score);
 
+    Student st2 = Student("Hamim","M.Ali","Qasimi",25,80);
+    st1.score = -4;
+    print(st1.score);
+
 
 
     // List<Students> listStudent = [
