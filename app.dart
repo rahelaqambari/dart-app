@@ -58,6 +58,10 @@ void main() {
     st1.score = -4;
     print(st1.score);
 
+    Student st3 = Studnt("Hasaim","Shoket","Zeind",26,97);
+    st3.score = 100;
+    print(st3.score);
+
 
 
     // List<Students> listStudent = [
