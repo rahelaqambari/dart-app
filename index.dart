@@ -1,3 +1,10 @@
+abstract class Car{
+    String model;
+    int color;
+    Car(this.model,this.color);
+    move();
+}
+
 abstract class Animal{
     String name;
     int age;
