@@ -1,9 +1,21 @@
 abstract class Car{
     String model;
-    int color;
+    String color;
     Car(this.model,this.color);
     move();
 }
+
+class Toyta implements Car{
+    String name;
+    Toyta(String model,String color,this.name):super(model,color);
+    @override
+    
+    @override
+    move(){
+        print("$name can move with 160 speed");
+    }
+}
+
 
 abstract class Animal{
     String name;
