@@ -1,13 +1,21 @@
-void main(){
-    List <String> Animals = ['cat','dog','donkey','monkey','sheep','hourse'];
-    print(Animals);
-    print(Animals.toLowerCase.contains("e"));
+// void main(){
+//     List <String> Animals = ['cat','dog','donkey','monkey','sheep','hourse'];
+//     print(Animals);
+//     print(Animals.toLowerCase.contains("e"));
 
-    List<num> numbers = [2,5,4,7,8,9,7,3,1,6];
-    List<num> sortedNumbers = numbers.sort();
-    print(sortedNumbers);
+//     List<num> numbers = [2,5,4,7,8,9,7,3,1,6];
+//     List<num> sortedNumbers = numbers.sort();
+//     print(sortedNumbers);
+// }
+
+void main(){
+    runApp(MyApp);
 }
 
+class MyApp extend StatelessWight(){
+    @override
+    Wight build()
+}
 
 
 
