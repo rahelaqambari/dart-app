@@ -8,13 +8,19 @@
 //     print(sortedNumbers);
 // }
 
-void main(){
-    runApp(MyApp);
-}
 
-class MyApp extend StatelessWight(){
-    @override
-    Wight build()
+void main(){
+    list<num> prices = [200,500, 800 ,100, 2300, 800,500,980, 1800, 6000];
+
+    List<num> currentPrice = prices.map((p)=>p-(p*5)/100).toList();
+    print(currenPrice);
+     myMoney = 290;
+    bool result = prices.any((price)=>price<=myMoney);
+    bool result = prices.every((price)=>price<=600);
+
+    List <dynamic> normalNumber = [[2,3],[5,6],[9,8],[12,8]];
+    normalNumbers.expand((e)=>e).tolist();
+
 }
 
 
