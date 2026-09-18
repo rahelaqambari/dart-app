@@ -10,6 +10,7 @@
 
 
 void main(){
+    runApp(MyStory());
     list<num> prices = [200,500, 800 ,100, 2300, 800,500,980, 1800, 6000];
 
     List<num> currentPrice = prices.map((p)=>p-(p*5)/100).toList();
@@ -22,6 +23,15 @@ void main(){
     normalNumbers.expand((e)=>e).tolist();
 
 }
+class MyStory extends StatelessWidgt{
+    @override
+    Widget build(BuildContext context) {
+        return MeterialApp(
+            home:
+        )
+    }
+}
+
 
 
 
