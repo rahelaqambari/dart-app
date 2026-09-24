@@ -11,6 +11,14 @@ class Ali implements Human{
     @override
     move(){
         print("$name can move with 2 foot");
+    },
+    class Fatima implements Human{
+    String nation;
+    Ali(String name,String age,this.nation):super(name,age);
+    @override
+    move(){
+        print("$name can move with speed 80 ");
     }
+}
 }
 
