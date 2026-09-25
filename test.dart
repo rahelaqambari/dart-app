@@ -22,3 +22,15 @@ class Ali implements Human{
 }
 }
 
+
+class  Product{
+    string name;
+    num price;
+    Product(this.name,this.price);
+}
+
+void main(){
+     var ProName = new Product("Labtab Dell",$2000);
+     print(ProName);
+}
+
