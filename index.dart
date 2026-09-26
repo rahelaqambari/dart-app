@@ -18,6 +18,7 @@ void main(){
      myMoney = 290;
     bool result = prices.any((price)=>price<=myMoney);
     bool result = prices.every((price)=>price<=600);
+    bool result = prices.every((price)=>price>=800);
 
     List <dynamic> normalNumber = [[2,3],[5,6],[9,8],[12,8]];
     normalNumbers.expand((e)=>e).tolist();

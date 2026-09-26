@@ -30,7 +30,10 @@ class  Product{
 }
 
 void main(){
-     var ProName = new Product("Labtab Dell",$2000);
+     var ProName = new Product("Labtab Dell",$5000);
+     print(ProName);
+
+      var ProName = new Product("Iphone 17",$2000);
      print(ProName);
 }
 
