@@ -23,12 +23,18 @@ void main(){
     List <dynamic> normalNumber = [[2,3],[5,6],[9,8],[12,8]];
     normalNumbers.expand((e)=>e).tolist();
 
+        List <dynamic> normalNumber = [2,3,5,6,9,8,12,8];
+    normalNumbers.expand((e)=>e).tolist();
+
+    
+
 }
 class MyStory extends StatelessWidgt{
     @override
     Widget build(BuildContext context) {
         return MeterialApp(
-            home:
+            home: title: Text("The Product Page");
+            body:
         )
     }
 }
