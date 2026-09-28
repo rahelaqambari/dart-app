@@ -24,13 +24,18 @@ class Ali implements Human{
 
 
 class  Product{
-    string name;
+    String name;
+    String brand;
+    String model;
     num price;
-    Product(this.name,this.price);
+    Product(this.name,this.price,this.brand,this.model);
 }
 
 void main(){
      var ProName = new Product("Labtab Dell",$5000);
+     print(ProName);
+
+      var ProName = new Product("Headphone ",$300,"Apple",2025);
      print(ProName);
 
       var ProName = new Product("Iphone 17",$2000);
