@@ -42,3 +42,21 @@ void main(){
      print(ProName);
 }
 
+
+class Employee{
+    string name;
+    string fathername;
+    string lastname;
+    int age;
+    int phone;
+    num _degree;
+    Student(this.name,this.fathername,this.lastname,this.age,this.phone,this._degree);
+    set degree(value){
+        if(value>50 && value<100){
+        this._degree = value;
+        }
+    }
+    num get degree(){
+        return this._degree;
+    }
+}
