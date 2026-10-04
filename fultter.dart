@@ -26,4 +26,19 @@ class MyApp extends StatelessWidget {
         return MaterialApp.router(routerConfig: _router);
     }
 }
+// params
+ElevatedButton(
+     onPressed: () {
+        final text = controller.text;
+        GoRoute.of(context).go("/about/$text");
+     },
+     child: Text("Go To About Page"),
+),
+// search Params
+ElevatedButton(
+     onPressed: () {
+        context.go("/product?search=apple&des=this");
+     },
+     child: Text("Product Page"),
+),
 
